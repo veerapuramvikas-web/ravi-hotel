@@ -1,0 +1,14 @@
+{
+  "name": "food-menu",
+  "version": "1.0.0",
+  "description": "Luxury restaurant digital menu & QR code system",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "gen-qr": "node gen_qr.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
